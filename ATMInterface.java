@@ -114,7 +114,7 @@ class BankAccount {
                 transactions++;
                 balance-=amount;
                 System.out.println("\nSuccessfullu Transfered to the" + receipent);
-                String str = amount+ "Rs transferred to" +"receipent"+"\n";
+                String str = amount+ "Rs transferred to\t" +receipent+"\n";
                 transactionHistory = transactionHistory.concat(str);
 
 
